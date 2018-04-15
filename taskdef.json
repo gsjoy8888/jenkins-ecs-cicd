@@ -22,7 +22,7 @@
           "sourceVolume": "my-vol"
         }
       ],
-      "name": "jenkins-ecs-cicd-simple-app",
+      "name": "simple-app",
       "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
       "cpu": 0
     }
