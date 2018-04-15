@@ -1,6 +1,6 @@
 #FROM 512409629187.dkr.ecr.us-east-1.amazonaws.com/jenkins-ecs-cicd:latest
-#FROM ubuntu:14.04
-FROM busybox
+FROM ubuntu:14.04
+
 # Install dependencies
 RUN apt-get update -y
 RUN apt-get install -y git curl apache2 php5 libapache2-mod-php5 php5-mcrypt php5-mysql
